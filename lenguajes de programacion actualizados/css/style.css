@@ -1,0 +1,182 @@
+/*fondo*/
+
+body {
+    background-color: black;
+}
+
+
+/*tamaño de imagenes predeterminadas de las tarjetas*/
+
+.tarjetas img {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+
+/*link de las tarjetas*/
+
+.tarjetas a {
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: white;
+    border: 1px solid white;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding: 15px;
+}
+
+
+/*hover de los links*/
+
+.JavaScript:hover {
+    background-color: yellow;
+    color: black;
+    transition: 1s;
+}
+
+.Java:hover {
+    background-color: white;
+    color: red;
+    border: 1px solid blue;
+    transition: 1s;
+}
+
+.Python:hover {
+    background-color: #175DF5;
+    color: yellow;
+    transition: 1s;
+}
+
+.Ruby:hover {
+    background-color: red;
+    color: white;
+    transition: 1s;
+}
+
+.php:hover {
+    background-color: #47285F;
+    color: black;
+    transition: 1s;
+}
+
+.Cmas:hover {
+    background-color: #175DF5;
+    color: white;
+    transition: 1s;
+}
+
+.Csharp:hover {
+    background-color: #7439A2;
+    color: white;
+    transition: 1s;
+}
+
+.C:hover {
+    background-color: #175DF5;
+    color: white;
+    transition: 1s;
+}
+
+.Go:hover {
+    background-color: #198297;
+    color: black;
+    transition: 1s;
+}
+
+.swift:hover {
+    background-color: #C7350D;
+    color: black;
+    transition: 1s;
+}
+
+.Kotlin:hover {
+    background-color: #C06B0C;
+    color: #198297;
+    transition: 1s;
+}
+
+
+/*configuracion de las tarjetas*/
+
+.tarjetas {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid white;
+    color: white;
+    margin: 50px 400px 50px 400px;
+}
+
+
+/*Medias queri*/
+
+@media (max-width: 1280px) {
+    .tarjetas {
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .tarjetas a {
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .tarjetas {
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .tarjetas a {
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 820px) {
+    .tarjetas {
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .tarjetas a {
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 912px) {
+    .tarjetas {
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .tarjetas a {
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:480px) {
+    body {
+        background-color: black;
+    }
+    .tarjetas {
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .tarjetas a {
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}
